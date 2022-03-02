@@ -1,0 +1,140 @@
+body
+{
+  text-align: center;
+  background-color: #94dfff;
+  margin: 0;
+  padding-top: 400px;
+}
+
+#Welcome 
+{
+  position: absolute;
+  background: linear-gradient(#3dd8ff, #2d88eb);
+  display: table;
+  text-align: center;
+  width:100%;
+  height: 30%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 9;
+}
+
+.parallax-inner 
+{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#profilepic
+{
+  border-radius: 100%;
+  height:200px;
+  width:auto;
+}
+
+h1
+{
+  font-family: 'Redressed', cursive;
+  font-size: 60px;
+}
+
+	
+.line 
+{
+  height: 6px;
+  background-color: rgb(0, 0, 0);
+  width: 70px;
+  margin: 8px auto;
+}
+
+#bio
+{
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(#2d88eb, #0068d9);
+  color: white;
+}
+
+#vids
+{
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(#0068d9, #2d88eb);
+  color: white;
+}
+
+#inner3
+{
+  width: 100%;
+}
+
+#work
+{
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(#2d88eb,#0068d9);
+  color: black;
+}
+
+#bio-about
+{
+  color:black;
+}
+
+#con
+{
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(#2d88eb,#0068d9);
+  color: black;
+}
+
+.menu 
+{
+  list-style: none;
+  position: fixed;
+  top: 10px;
+  right: 350px;
+  z-index: 10;
+  cursor: pointer;
+  font-family: fantasy;
+  font-size: 24px;
+  background-color: aquamarine;
+ }
+ 
+ .links
+ {
+  float: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 9px;
+  padding-right: 9px;
+ }
+
+ .lin
+ {
+  text-decoration: none;
+  color: #4d0d82;
+ }
+
+ #inner4
+ {
+   width:1800px;
+ }
+
+#YT
+{
+  text-decoration: none;
+  color: red;
+}
+#mail2
+{
+  text-decoration: none;
+  color: white;
+}
+.h
+{
+  display: inline;
+}

@@ -49,6 +49,14 @@ h1
   margin: 8px auto;
 }
 
+.line2
+{
+  height: 4px;
+  background-color: rgb(0, 0, 0);
+  width: 50px;
+  margin: 8px auto;
+}
+
 #bio
 {
   text-align: center;
@@ -76,6 +84,7 @@ h1
   padding: 50px;
   background: linear-gradient(#2d88eb,#0068d9);
   color: black;
+  width: 1800px;
 }
 
 #bio-about
@@ -137,4 +146,34 @@ h1
 .h
 {
   display: inline;
+}
+
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover {background: rgb(190, 255, 226);}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+ul li ul li { 
+  background: rgb(190, 255, 226); 
+  display: block; 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background: rgb(212, 253, 235);}
+
+.nodec
+{
+  text-decoration: none;
+}
+
+.game
+{
+  display:none;
 }

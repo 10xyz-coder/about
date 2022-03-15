@@ -1,6 +1,10 @@
 <html>
 
 <head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title> 10xyz Coder </title>
   <link rel="stylesheet" href="style.css">
   <script src="main.js"></script>
@@ -14,7 +18,13 @@
   <ul class="menu"> 
     <li class="links"><a href="#Welcome" class="lin">HOME</a></li> 
     <li class="links"><a href="#vids" class="lin">VIDEOS</a></li> 
-    <li class="links"><a href="#work" class="lin">WORK</a></li> 
+    <li class="links">
+      <a href="#work" class="lin">WORK</a>
+      <ul>
+        <li> <a class="nodec" href="#games">Games</a> </li>
+        <li> <a class="nodec" href="#bots">Bots</a> </li>
+      </ul>
+    </li> 
     <li class="links"><a href="#bio" class="lin">ABOUT</a></li> 
     <li class="links"><a href="#con" class="lin">CONTACT</a></li> 
   </ul> 
@@ -57,13 +67,42 @@ allowfullscreen>
   </section>
 <br>
   <section id="work" class="parallax-inner">
-    <div id="inner3">
-      <h1> WORK </h1>
-      <div class="line"></div>
-      <iframe src="https://en.wikipedia.org/wiki/YouTube" width="1790" height="720">
-      </iframe>
+    <h1> WORK </h1>
+    <div class="line"></div>
+    <h2 id="games">Games</h2>
+    <div class="line2"></div>
+    <div id="inner3" class="carousel slide">
+      <center>
+      <div class="carousel-inner">
+      <div class="item active">
+        <img src="assets\games\spider.png" onclick="spider_game()">
+      </div> &nbsp;
+      <div class="item">
+        <iframe width="392" height="620" style="border: 0px;" 
+        src="https://studio.code.org/projects/applab/uOv16xuWN20fJCpy5NHRF3FF__6QtJJGt1AqlrmKk1x/embed?nosource">
+        </iframe>
+      </div> &nbsp;
+      <div class="item">
+        <iframe src="https://scratch.mit.edu/projects/561248508/embed" 
+        allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen>
+        </iframe> 
+      </div>
+      </div>
+      <a class="left carousel-control" href="#inner3" data-slide="prev"> <span class="glyphicon-glyphicon-chevron-left"></span> </a>
+      <a class="right carousel-control" href="#inner3" data-slide="next"> <span class="glyphicon-glyphicon-chevron-right"></span> </a>
+      </center>
     </div>
+    <h2 id="bots">Chatbots</h2>
+    <div class="line2"></div>
+    <iframe allow="microphone;" width="A350" height="430" src="https://console.dialogflow.com/api-client/demo/embedded/6f746a79-2724-4070-9577-e5fbdc01dadb">
+    </iframe>
   </section>
+
+  <div id="spider_game" class="game">
+    <iframe src="https://scratch.mit.edu/projects/578481777/embed" 
+    allowtransparency="true" width="1800" height="900" frameborder="0" scrolling="no" allowfullscreen>
+  </iframe>
+  </div>
 
   <section id="bio">
     <h1 id="bio-about">

@@ -84,7 +84,7 @@ h1
   padding: 50px;
   background: linear-gradient(#2d88eb,#0068d9);
   color: black;
-  width: 1800px;
+  width: 1900px;
 }
 
 #bio-about
@@ -98,6 +98,7 @@ h1
   padding: 50px;
   background: linear-gradient(#2d88eb,#0068d9);
   color: black;
+  width:1900px;
 }
 
 .menu 
@@ -176,4 +177,10 @@ ul li ul li:hover {background: rgb(212, 253, 235);}
 .game
 {
   display:none;
+}
+
+#getAS
+{
+  background-color: aquamarine;
+  border-radius: 10px;
 }
